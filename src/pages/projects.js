@@ -1,7 +1,6 @@
 import * as React from "react"
 import Header from "../components/Header"
 import SharingTableLocation from "../components/SharingTableLocation"
-
 import { StaticImage } from "gatsby-plugin-image"
 
 const ProjectsPage = () => (
