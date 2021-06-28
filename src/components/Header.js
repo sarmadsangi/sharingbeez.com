@@ -19,7 +19,7 @@ const Header = () => (
       <Link to="/">
         <h2 className="font-bold text-2xl flex">
           <StaticImage className="rounded mr-3" width={35} height={35} src="../images/logo.png" />
-        Sharing Beez
+        Eat My Garden
       </h2>
       </Link>
       <Link className="pt-2 pb-2 pl-3 pr-3 hover:bg-green-100 border rounded" to="/projects">Projects</Link>
