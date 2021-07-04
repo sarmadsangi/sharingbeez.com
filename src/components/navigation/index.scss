@@ -24,10 +24,12 @@
                     @include remCalc(18px);
                     font-weight: 400;
                     color: $primaryGreen;
-                    transition: all $aniTime ease-in-out;
+                    opacity: 1;
+                    transition: opacity $aniTime ease-in-out, border $aniTime ease-in-out;
                     text-decoration: none;
                     padding-bottom: 10px;
                     margin-left: 40px;
+                    border-bottom: 2px solid transparent;
                     @include respond-to("large") {
                         margin-left: 25px;
                     }

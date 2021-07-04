@@ -22,16 +22,13 @@ const Navigation = () => {
             &#9776;
           </span>
           <Link to="/">
-            <h2 className="font-bold text-2xl flex">
               <StaticImage
                 className="rounded mr-3"
-                width={35}
-                height={35}
-                src="../../images/logo.png"
+                width={340}
+                height={70}
+                src="../../images/eatmygardenlogo.png"
                 alt="Eat My Garden Logo"
               />
-              Eat My Garden
-            </h2>
           </Link>
           <div className="nav-item-links-container">
             <Link className="nav-item-link" to="/">
