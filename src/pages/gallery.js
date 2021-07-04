@@ -5,7 +5,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
 
-const ProjectsPage = () => (
+const GalleryPage = () => (
   <Layout>
     <Head />
     <Header />
@@ -18,4 +18,4 @@ const ProjectsPage = () => (
   </Layout>
 );
 
-export default ProjectsPage;
+export default GalleryPage;

@@ -2,7 +2,7 @@
   "name": "sharing-beez",
   "version": "1.0.0",
   "private": true,
-  "description": "Sharing beez",
+  "description": "Eat mM Garden",
   "author": "Sarmad Sangi",
   "keywords": [
     "gatsby"
@@ -17,22 +17,28 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "dotenv": "^10.0.0",
     "gatsby": "^3.0.1",
     "gatsby-plugin-google-analytics": "^3.0.0",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-mdx": "^2.0.0",
     "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-sass": "^4.8.0",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-plugin-tailwindcss": "^1.0.3",
+    "gatsby-source-contentful": "^5.8.0",
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.35.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
-    "gatsby-plugin-postcss": "^4.0.0",
+    "gatsby-plugin-postcss": "^4.8.0",
     "postcss": "^8.2.8",
     "tailwindcss": "^2.0.3"
   }

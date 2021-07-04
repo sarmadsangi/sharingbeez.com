@@ -1,6 +1,13 @@
+// require("dotenv").config({
+//   path: `./.env.${process.env.NODE_ENV}`,
+// })
+
 module.exports = {
   siteMetadata: {
-    title: "Eat My Garden",
+    title: `Eat My Garden | A Community for Sharing`,
+    description: `Creating a supportive community by sharing skills, ideas and fresh produce to encourage self-sustaining behaviours using edible garden on an open space.`,
+    author: `@Sarmad Sangi`,
+    siteUrl: `http://eatmygarden.org.au`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -31,5 +38,25 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-plugin-sass",
+      options: { 
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+        ],
+        sassOptions: 
+          { 
+            includePaths: ["/src/scss/styles.scss"] 
+          }
+        },
+    },
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
+    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    //   },
+    // },
   ],
 };
