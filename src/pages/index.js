@@ -36,9 +36,9 @@ const IndexPage = () => (
             className="text-blue-600 underscore"
             target="_blank"
             rel="noreferrer" 
-            href="https://www.facebook.com/SharingBeez"
+            href="https://www.facebook.com/groups/1050203421660881"
           >
-            Follow us on facebook
+            Join us on facebook
           </a>{" "}
           and keep upto date with our community projects.
         </p>
