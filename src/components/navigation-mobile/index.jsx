@@ -17,7 +17,8 @@ const NavigationMobile = ({ open, setOpenMobileMenu }) => (
     <Link className="nav-item-mobile" to="/">
       Home
     </Link>
-    <Link className="nav-item-mobile" to="/projects">
+    {/* enable these back once we have added content for these pages */}
+    {/* <Link className="nav-item-mobile" to="/projects">
       Projects
     </Link>
     <Link className="nav-item-mobile" to="/gallery">
@@ -31,7 +32,7 @@ const NavigationMobile = ({ open, setOpenMobileMenu }) => (
     </Link>
     <Link className="nav-item-mobile" to="/contact">
       Contact
-    </Link>
+    </Link> */}
   </div>
 );
 

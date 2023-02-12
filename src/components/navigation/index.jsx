@@ -34,7 +34,8 @@ const Navigation = () => {
             <Link className="nav-item-link" to="/">
               Home
             </Link>
-            <Link className="nav-item-link" to="/projects">
+            {/* Enable these navs back once we have added some content */}
+            {/* <Link className="nav-item-link" to="/projects">
               Projects
             </Link>
             <Link className="nav-item-link" to="/gallery">
@@ -48,7 +49,7 @@ const Navigation = () => {
             </Link>
             <Link className="nav-item-link" to="/contact">
               Contact
-            </Link>
+            </Link> */}
           </div>
         </div>
         <NavigationMobile open={open} setOpenMobileMenu={setOpenMobileMenu} />
