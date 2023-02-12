@@ -15,9 +15,7 @@ const IndexPage = () => (
       <section className="mb-16">
         <h3 className="text-xl font-bold mb-2">A community for sharing</h3>
         <p className="mb-8">
-          Creating a supportive community by sharing skills, ideas and fresh
-          produce to encourage self-sustaining behaviours using edible garden on
-          an open space.
+The vision of Eat My Garden is to form a supportive community for sharing skills, ideas, and promoting sustainable living. The mission is to bring people together through skill sharing and working together in open garden spaces. The group encourages backyard gardening and sharing of homegrown produce with neighbors.<br/> <br/>Eat My Garden is supported by Werribee River Association and has partnerships with Gardening Swap Point Cook, Saltwater Gardening Champion, and Seabrook Garden and Produce Share. People are encouraged to create an edible garden and share the harvest with neighbors and at Eat My Garden Sharing Tables.
         </p>
 
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/SharingBeez">
